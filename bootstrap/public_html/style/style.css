@@ -1,0 +1,78 @@
+body{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color: #9A1212;
+}
+
+a.badge{
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header a.badge {
+    margin-right: 1em;
+    font-size: 1.7em;
+}
+
+.fill-viewport {
+    min-height: 100vh 
+}
+
+.fill-viewport-70 {
+    min-height: 70vh;
+}
+
+.main-1{
+    background: url(../img/1.jpg) no-repeat #9A1212;
+    padding-top: 5em;
+}
+
+@media (min-width: 2200px){
+    .main-1{
+        background-position: center;
+    }
+}
+
+.h2{
+    font-size: 5em;
+}
+
+.h1{
+    font-size: 7.5em;
+}
+
+.dkp{
+    background: #F3F3F3;
+}
+
+.arrow{
+    color: #9A1212;
+}
+
+.figure-caption{
+    color: #9A1212;
+}
+
+footer{
+    background: #F3F3F3;
+}
+
+.figure-img{
+    border-radius: 3rem!important;
+}
+
+.lep1{
+    position: absolute;
+    transform: matrix(-1, 0.13, 0.13, 0.99, 0, 0);
+    right: 600px;
+    top: 350px;
+}
+
+.lep2{
+    position: absolute;
+    right: 20px;
+    top: 1150px;
+}

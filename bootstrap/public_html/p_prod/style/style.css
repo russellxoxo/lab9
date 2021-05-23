@@ -1,0 +1,42 @@
+body{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+a.badge{
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header a.badge {
+    margin-right: 1em;
+    font-size: 1.7em;
+    background: #F3F3F3;
+}
+
+header a.active {
+    margin-right: 1em;
+    font-size: 2.5em;
+    background: #9A1212;
+}
+
+.fill-viewport-70{
+    min-height: 70vh;
+}
+
+footer{
+    background: #F3F3F3;
+    height: 100px;
+}
+
+footer .address{
+    color: #9A1212;
+}
+
+.arrow-back{
+    border-radius: 2rem!important;
+}
+
+.arrow{
+    color: #9A1212;
+}

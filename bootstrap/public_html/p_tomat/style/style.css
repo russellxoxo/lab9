@@ -1,0 +1,62 @@
+body{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+a.badge{
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header a.badge {
+    margin-right: 1em;
+    font-size: 1.7em;
+    background: #F3F3F3;
+}
+
+header{
+    z-index: 2;
+}
+
+.fill-viewport-75{
+    min-height: 75vh;
+}
+
+footer{
+    background: #F3F3F3;
+    height: 100px;
+}
+
+.arrow-back{
+    border-radius: 2rem!important;
+}
+
+.arrow{
+    color: #9A1212;
+}
+
+.main{
+    border-radius: 3rem!important;
+    background: #9A1212;
+}
+
+.tomat {
+    border-radius: 3rem!important;
+}
+
+.h2{
+    font-size: 2.5em;
+}
+
+.h1{
+    font-size: 4em;
+}
+
+.lep{
+    position: absolute;
+    width: 281.28px;
+    height: 249.27px;
+    right: 100px;
+    bottom: 15px;
+    transform: rotate(-20.26deg);
+}
